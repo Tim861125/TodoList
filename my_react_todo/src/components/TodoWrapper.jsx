@@ -68,20 +68,8 @@ function TodoWrapper() {
 
   return (
     <div className="wrapper">
-      <h1>To Do List</h1>
-      <CreateForm addTodo={addTodo} />
-      {todos.map((todo) => {
-        return (
-          <Todo
-            toggleCompleted={toggleCompleted}
-            toggleIsEditing={toggleIsEditing}
-            editTodo={editTodo}
-            todo={todo}
-            key={todo.id}
-            deleteTodo={deleteTodo}
-          />
-        );
-      })}
+      <h1>博明哥好壯</h1>
+      
     </div>
   );
 }
